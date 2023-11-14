@@ -1,0 +1,105 @@
+/* ManaidFinals.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+  #quiz-name {
+        font-family: 'Tangerine', serif; 
+        font-size: 50px;
+    }
+
+    #question {
+        font-size: 20px;
+    }
+
+#quiz-container {
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#audio-container {
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#options {
+    list-style: none;
+    padding: 0;
+}
+
+#options li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#options li:hover {
+    background-color: #f0f0f0;
+}
+
+#progress-counter {
+    margin-bottom: 20px;
+}
+
+#result-container {
+    display: none;
+    margin-top: 20px;
+}
+
+#result {
+    font-weight: bold;
+    color:red;
+}
+
+
+#about-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    overflow: auto; 
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}

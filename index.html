@@ -1,0 +1,49 @@
+<!-- ManaidFinals.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="ManaidFinals.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+
+
+<div id="quiz-container"> <h1 id = "quiz-name">are you a soldier, a poet, or a king?</h1>
+   
+
+    <div id="question-container">
+        <h2 id="question"></h2>
+        <ul id="options"></ul>
+    </div>
+
+    <div id="progress-counter">0/0</div>
+
+    <div id="result-container">
+        <p id="result"></p>
+        <p id = "result-desc"></p>
+    </div>
+     <div id="audio-container">
+        <audio controls id="music-player">
+            <source src="SoldierPoetKing.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</div>
+
+<button id="about-btn">About</button>
+
+<div id="about-popup" class="popup">
+    <span class="close" id="close-btn">&times;</span>
+    <p>This is a personality quiz website project!<br>This is inspired by the viral song "Soldier, Poet, King" by The Oh Hellos.</p>
+    <p>Made by Jimae Manaid</p>
+    
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="ManaidFinals.js"></script>
+</body>
+</html>
